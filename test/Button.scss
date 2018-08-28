@@ -1,0 +1,48 @@
+/*------------- #BUTTONS --------------*/
+$white-color: #ffffff;
+$primary-color: #ff5e3a;
+$orange: #ff763a;
+$purple: #7c5ac2;
+$blue: #38a9ff;
+$breez: #08ddc1;
+$green: #1ed760;
+$grey: #515365;
+$grey-light: #888da8;
+$grey-lighter: #9a9fbf;
+$breez-light: #2aebcb;
+$yellow: #ffdc1b;
+$smoke: #e6ecf5;
+$secondary-color: #3f4257;
+$heading-color: #515365;
+
+.btn {
+    color: $white-color;
+    margin-bottom: 35px;
+    position: relative;
+
+    &:hover {
+        opacity: 0.8;
+        color: $white-color;
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
+
+    &::before {
+        content: '.';
+    }
+    &.c-grey {
+        border-color: #d8dbe6;
+
+        &:hover {
+            color: inherit;
+        }
+    }
+
+    &.disabled,
+    &:disabled {
+        background-color: #9a9fbf;
+        border-color: #9a9fbf;
+    }
+}
