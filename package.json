@@ -1,6 +1,6 @@
 {
   "name": "tsconvert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatic convertion utility from sass source code to Typestyle",
   "main": "src/index.js",
   "bin": {
@@ -13,7 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/gcazaciuc/tsconvert.git"
   },
-  "keywords": ["typestyle", "css-in-js", "converter", "sass", "css"],
+  "keywords": [
+    "typestyle",
+    "css-in-js",
+    "converter",
+    "sass",
+    "css"
+  ],
   "author": "Cazaciuc Gabriel",
   "license": "MIT",
   "bugs": {
